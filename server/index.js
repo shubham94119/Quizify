@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN,
+    origin: https:"//quizify-liart.vercel.app/",
     credentials: true,
     maxAge: 14400,
   })
